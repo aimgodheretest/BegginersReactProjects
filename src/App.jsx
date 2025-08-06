@@ -1,6 +1,7 @@
 import Calculator from "./components/Calculator";
 import Counter from "./components/Counter";
 import Meals from "./components/Meals";
+import SearchIcon from "./components/SearchIcon";
 import Todo from "./components/Todo";
 import Toggle from "./components/Toggle";
 
@@ -11,7 +12,9 @@ const App = () => {
       {/* <Todo /> */}
       {/* <Meals/> */}
       {/* <Calculator /> */}
-      <Toggle />
+      {/* <Toggle /> */}
+      <SearchIcon/>
+      
     </div>
   );
 };
